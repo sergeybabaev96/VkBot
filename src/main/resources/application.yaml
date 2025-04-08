@@ -1,0 +1,15 @@
+spring:
+  application:
+  name: vkbot
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: sergeybabaev
+    password: password
+
+logging:
+  level:
+    root: info
+    org.zalando.logbook: TRACE
+
